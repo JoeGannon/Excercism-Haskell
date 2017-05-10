@@ -1,0 +1,52 @@
+
+==================== FINAL INTERFACE ====================
+2017-05-10 19:21:31.2154842 UTC
+
+interface hello-world-1.0.0.2-2glg4pYiup1BPRFi7wuE2h:HelloWorld 8002
+  interface hash: c4b9839dbc9dbf50f09cad4826a9e2c0
+  ABI hash: 255709ddc623b235391b84e78f888570
+  export-list hash: 3c82d3cf0094624db76fdd3f07497962
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 8c3be44010109244838366a7c8fa28d8
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  HelloWorld.hello
+module dependencies:
+package dependencies: base-4.9.1.0* ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Const
+                         base-4.9.1.0:Data.Monoid base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:GHC.Generics base-4.9.1.0:GHC.IO.Exception
+                         base-4.9.1.0:GHC.TypeLits
+import  -/  base-4.9.1.0:GHC.Base 4caea1123ecf4b46e27cbccd6d279377
+import  -/  base-4.9.1.0:Prelude 74b3e204395920329f6de9d97206abe9
+603d0ca9eb02ae3dec221c32d25dc4b3
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   HelloWorld.$trModule2
+                   HelloWorld.$trModule1) -}
+2826a4b632a37746b9f492ee822e264d
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "HelloWorld"#) -}
+c3e68a10aed53b9abd392c32583be54c
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "hello-world-1.0.0.2-2glg4pYiup1BPRFi7wuE2h"#) -}
+c946718e8d5112697e3cfb6cadf4bb36
+  hello :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# "Hello, World!"#) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+
